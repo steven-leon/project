@@ -1,0 +1,773 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*-Header-*/
+header{
+    background: #191515;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 5em;
+}
+
+.logo_imagen{
+    width: 4em;
+}
+
+
+.nav{
+   width: 40%;
+   margin: auto;
+   
+}
+
+.nav_ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+
+
+.nav_li--a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav_li--a:hover{
+    text-decoration: none;
+    color: #c74e1a;
+}
+/*-----------------------Fondo------------------*/
+
+.fondo{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    color: #ffffff;
+    
+}
+
+.fondo_img{
+  padding-top: 6em;
+  padding-left:4em;
+  display: flex;
+  flex-direction: row;
+}
+
+.fondo_img--img{
+    transform: rotate(-30deg);
+}
+
+.fondo_texto{
+    margin-left: 70em;
+   
+    
+}
+
+.fondo_texto--p{
+  
+    font-size: 3em;
+    color: #ffffff;
+    
+}
+
+.fondo_boton{
+    margin-top: 3em;
+    margin-left: 62em;
+}
+
+.fondo_boton--a{
+    background: #ebba34;
+    text-decoration: none;
+    margin: 9em 8em;
+    margin-top: 150px;
+    color: #ffffff;
+    padding: 1em 2em;
+    
+}
+
+.fondo_boton--a:hover{
+    background: #6e5512;
+    border: 2px solid #ebba34;
+    text-decoration: none;
+    margin: 9em 8em;
+    margin-top: 150px;
+    color: #ffffff;
+    padding: 1em 2em;
+    
+}
+
+/*--------Nuestros productos------------*/
+
+.section_productos{
+    width: 100%;
+    background: #191515;
+    color: #ffffff;
+}
+   
+
+.section_h2{
+    padding-top: 2em;
+    font-size: 2em;
+    text-align: center;
+}
+
+.section_contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    
+}
+
+.section_contenedor--img{
+    background: #473f3e;
+    width: 26em;
+    height: 20em;
+    margin: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #c74e1a;
+    padding-bottom: 1em;
+    
+}
+
+.section_contenedor--a{
+    font-size: 2em;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+.section_contenedor--a:hover{
+    color: #c74e1a;
+    
+}
+
+.section_contenedor--precio{
+    font-size: 2em;
+    
+}
+
+
+.section_contenedor--cart{
+    background: #ebba34;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 3em;
+    padding: 1em 2em;
+}
+
+.section_contenedor--cart:hover{
+    background: #6e5512;
+    border: 2px solid #ebba34;
+    text-decoration: none;
+    margin-top: 3em;
+    color: #ffffff;
+    padding: 1em 2em;
+    
+}
+
+.section_contenedor--img1{
+    background: none;
+    width: 20em;
+    
+      
+}
+
+.section_contenedor--img2{
+    background: none;
+    width: 20em;
+    
+}
+
+.section_contenedor--img3{
+    background: none;
+    width: 20em;
+    
+}
+
+.section_contenedor--img4{
+    background: none;
+    width: 20em;
+    
+}
+
+
+
+/*--------Testimonios------------*/
+
+.testimonios{
+    background: #191515;
+    color: #ffffff;
+    padding-bottom: 3em;
+}
+
+.testimonios_h2{
+    padding-top: 3em;
+    font-size: 2em;
+    text-align: center;
+}
+
+.testimonios_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.testimonios_img--img{
+    width: 9vw;
+    height: 17vh;
+    border-radius: 50%;
+}
+
+.testimonios p{
+    width: 50%;
+    padding-top: 2em;
+    margin: auto;
+}
+
+/*--------Footer------------*/
+
+footer{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/Megadeth.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+    color: #ffffff;
+}
+
+.footer_contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.footer_logo{
+    width: 20%;
+    height: 20vh;
+    padding-right: 10em;
+}
+
+.footer_logo p{
+    color: #87968c;
+}
+
+.footer_categorias{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    padding-right: 10em;
+
+}
+
+.footer_categorias a{
+    text-decoration: none;
+    color: #87968c;
+}
+
+.footer_categorias a:hover{
+    text-decoration: none;
+    color: #c74e1a;
+}
+
+.footer_siguenos{
+    height: 20vh;
+    padding-right: 10em;
+
+}
+
+
+
+.footer_info{
+    height: 20vh;
+    padding-right: 10em;
+
+}
+
+.footer_info p{
+    color: #87968c;
+}
+
+.footer_p{
+    clear: both;
+    text-align: center;
+    padding-top: 2.5em;
+}
+
+/*----------------------------------------------------------------GUITARRAS------------------------------------------------------------------------*/
+
+/*-----------------------Fondo------------------*/
+
+.fondoGuitar{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/megadeth3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.fondoGuitar_img{
+  padding-top: 6em;
+  padding-left:4em;
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+}
+
+.fondoGuitar_img--img1{
+    width: 50vw;
+    height: 70vh;
+}
+
+.fondoGuitar_img--img2{
+    width: 50vw;
+    height: 70vh;
+}
+
+
+.fondoGuitar_texto{
+    margin-top: 25em;
+    margin-left: 35em;
+   
+   
+    
+}
+
+.fondoGuitar_texto--p{
+   
+    font-size: 3em;
+    color: #ffffff;
+    
+}
+
+
+
+/*--------guitarras------------*/
+.section_guitarras{
+    width: 100%;
+    background: #191515;
+    color: #ffffff;
+    padding-bottom: 2em;
+}
+   
+
+.section_guitarras--h2{
+    padding-top: 2em;
+    font-size: 2em;
+    text-align: center;
+}
+
+.section_contenedor-guitarras{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    flex-direction: column;
+    
+}
+
+.section_contenedor-guitarras--1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_contenedor--img{
+    background: #473f3e;
+    width: 26em;
+    height: 20em;
+    margin: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #c74e1a;
+    padding-bottom: 1em;
+    
+}
+
+.section_contenedor--a{
+    font-size: 2em;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+.section_contenedor--a:hover{
+    color: #c74e1a;
+    
+}
+
+.section_contenedor--precio{
+    font-size: 2em;
+    
+}
+
+
+.section_contenedor--cart{
+    background: #ebba34;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 3em;
+    padding: 1em 2em;
+}
+
+.section_contenedor--cart:hover{
+    background: #6e5512;
+    border: 2px solid #ebba34;
+    text-decoration: none;
+    margin-top: 3em;
+    color: #ffffff;
+    padding: 1em 2em;
+    
+}
+
+.section_contenedor--img1{
+    background: none;
+    width: 20em;
+    
+      
+}
+
+.section_contenedor--img2{
+    background: none;
+    width: 20em;
+    
+}
+
+.section_contenedor--img3{
+    background: none;
+    width: 20em;
+    
+}
+
+.section_contenedor--img4{
+    background: none;
+    width: 20em;
+    
+}
+
+
+/*----------------------------------------------------------------BAJOS------------------------------------------------------------------------*/
+
+
+.fondoBass{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/cliff.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.fondoBass_img{
+  padding-top: 4em;
+  padding-left:4em;
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+}
+
+.fondoBass_img--img1{
+    width: 50vw;
+    height: 70vh;
+}
+
+
+
+.fondoBass_texto{
+    margin-top: 25em;
+    margin-left: 25em;
+   
+   
+    
+}
+
+.fondoBass_texto--p{
+   
+    font-size: 3em;
+    color: #ffffff;
+    
+}
+
+
+
+/*--------bajos------------*/
+.section_bajos{
+    width: 100%;
+    background: #191515;
+    color: #ffffff;
+    padding-bottom: 2em;
+}
+   
+
+.section_bajos--h2{
+    padding-top: 2em;
+    font-size: 2em;
+    text-align: center;
+}
+
+.section_contenedor-bajos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    flex-direction: column;
+    
+}
+
+.section_contenedor-bajos--1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_contenedor--img{
+    background: #473f3e;
+    width: 26em;
+    height: 20em;
+    margin: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #c74e1a;
+    padding-bottom: 1em;
+    
+}
+
+.section_contenedor--a{
+    font-size: 2em;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+.section_contenedor--a:hover{
+    color: #c74e1a;
+    
+}
+
+.section_contenedor--precio{
+    font-size: 2em;
+    
+}
+
+
+.section_contenedor--cart{
+    background: #ebba34;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 3em;
+    padding: 1em 2em;
+}
+
+.section_contenedor--cart:hover{
+    background: #6e5512;
+    border: 2px solid #ebba34;
+    text-decoration: none;
+    margin-top: 3em;
+    color: #ffffff;
+    padding: 1em 2em;
+    
+}
+
+.section_contenedor--img1{
+    background: none;
+    width: 20em;
+    
+      
+}
+
+.section_contenedor--img2{
+    background: none;
+    width: 20em;
+    
+}
+
+.section_contenedor--img3{
+    background: none;
+    width: 20em;
+    
+}
+
+
+
+.section_contenedor--img4{
+    background: none;
+    width: 20em;
+    
+}
+
+
+
+/*----------------------------------------------------------------NOSOTROS-------------------------------------------------------------------------*/
+
+
+.fondo_nosotros{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fondo_nosotros-img--img1{
+    width: 23em;
+    height: 36em;
+    
+}
+
+.fondo_nosotros-img--img2{
+    width: 30em;
+    height: 38em;
+}
+
+.fondo_nosotros-texto{
+    padding-top: 20em;
+   
+}
+
+.fondo_nosotros-texto--p1{
+    font-size: 2em;
+}
+
+.fondo_nosotros-texto--p2{
+    font-size: 3em;
+}
+
+/*--------NOSOTROS------------*/
+
+.section_nosotros{
+    background: #191515;
+    margin: auto;
+    color: #87968c;
+}
+
+.section_nosotros-contenedor{
+    width: 70%;
+    margin: auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.section_nosotros-contenedor--h2{
+    text-align: center;
+    color: #000000;
+}
+
+/*----------------------------------------------------------------CONTACTO-------------------------------------------------------------------------*/
+
+/*--------contacto------------*/
+
+.section_contacto{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    margin-top: 3em;
+   
+}
+
+.section_contacto--contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.section_contacto--info{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+}
+
+.section_contacto--info a{
+    text-decoration: none;
+    color: #000000;
+  
+}
+
+.formulario_icon{
+    width: 1em;
+    height: 1em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.section_formulario{
+    width: 30vw;
+    height: 5vh;
+    font-size: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+}
+
+.section_formulario--textarea{
+    width: 30vw;
+    height: 15vh;
+    font-size: 1em;
+    margin-bottom: 1em; 
+    padding-left: 1em;
+}
+
+.section_formulario--enviar{
+    background: #ebba34;
+    font-size: 1em;
+    width: 13vw;
+    height: 8vh;
+}
+
+.section_formulario--enviar:hover{
+    background: #6e5512;
+    border: 2px solid #ebba34;
+    font-size: 1em;
+    width: 13vw;
+    height: 8vh;
+}
+
+
+
+

@@ -102,11 +102,31 @@ header{
     color: #ffffff;
     
 }
+/* .fondo_boton{
+    margin-top: 3em;
+    
+} */
 
 .fondo_boton{
     margin-top: 3em;
     
 }
+
+.fondo_boton:hover{
+    margin-top: 3em;
+    transform: rotate(-15deg);
+    transition: 1000ms;
+}
+
+/* .fondo_boton--a{
+    background: #ebba34;
+    text-decoration: none;
+    margin: 9em 8em;
+    margin-top: 150px;
+    color: #ffffff;
+    padding: 1em 2em;
+    font-size: 1.2vw;
+} */
 
 .fondo_boton--a{
     background: #ebba34;
@@ -116,7 +136,9 @@ header{
     color: #ffffff;
     padding: 1em 2em;
     font-size: 1.2vw;
+    
 }
+
 
 .fondo_boton--a:hover{
     background: #6e5512;
@@ -126,9 +148,21 @@ header{
     margin-top: 150px;
     color: #ffffff;
     padding: 1em 2em;
+    transform: scale(1.2);
     
+   
 }
 
+/* .fondo_boton--a:hover{
+    background: #6e5512;
+    border: 2px solid #ebba34;
+    text-decoration: none;
+    margin: 9em 8em;
+    margin-top: 150px;
+    color: #ffffff;
+    padding: 1em 2em;
+    transform: scale(1.2);
+} */
 /*--------Nuestros productos------------*/
 
 .section_productos{

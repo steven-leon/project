@@ -1,0 +1,514 @@
+.fondoGuitar {
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/megadeth3.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 80vh;
+	color: #ffffff;
+	display: flex;
+	flex-direction: row;
+}
+.fondoGuitar_img {
+	padding-top: 6em;
+	padding-left: 4em;
+	display: flex;
+	flex-direction: row;
+	width: 30%;
+}
+.fondoGuitar_img--img1 {
+	width: 50vw;
+	height: 70vh;
+}
+.fondoGuitar_img--img2 {
+	width: 50vw;
+	height: 70vh;
+}
+.fondoGuitar_texto {
+	margin-top: 25em;
+	margin-left: 35em;
+}
+.fondoGuitar_texto--p {
+	font-size: 3em;
+	color: #ffffff;
+}
+
+
+
+/*--------guitarras------------*/
+
+.section_guitarras {
+	width: 100%;
+	background: $color-primario;
+	color: #ffffff;
+	padding-bottom: 2em;
+}
+.section_guitarras--h2 {
+	padding-top: 2em;
+	font-size: 2em;
+	text-align: center;
+}
+.section_contenedor-guitarras {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 2em;
+	flex-direction: column;
+}
+.section_contenedor-guitarras--1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.section_contenedor--img {
+	background: #473f3e;
+	width: 26em;
+	height: 20em;
+	margin: 0.5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: $color-secundario;
+	padding-bottom: 1em;
+}
+.section_contenedor--a {
+	font-size: 2em;
+	color: #ffffff;
+	text-decoration: none;
+	&:hover {
+		color: $color-secundario;
+	}
+}
+.section_contenedor--precio {
+	font-size: 2em;
+}
+.section_contenedor--cart {
+	background: #ebba34;
+	text-decoration: none;
+	color: #ffffff;
+	margin-top: 3em;
+	padding: 1em 2em;
+	&:hover {
+		background: #6e5512;
+		border: 2px solid #ebba34;
+		text-decoration: none;
+		margin-top: 3em;
+		color: #ffffff;
+		padding: 1em 2em;
+	}
+}
+.section_contenedor--img1 {
+	background: none;
+	width: 20em;
+}
+.section_contenedor--img2 {
+	background: none;
+	width: 20em;
+}
+.section_contenedor--img3 {
+	background: none;
+	width: 20em;
+}
+.section_contenedor--img4 {
+	background: none;
+	width: 20em;
+}
+
+
+@include media1-lg{
+    .section_guitarras {
+        width: 100%;
+    }
+    .section_contenedor-guitarras {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+    }
+    .section_contenedor-guitarras--1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+    .section_contenedor--img {
+        background: #473f3e;
+        width: 23vw;
+        height: 20em;
+        margin: 0.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $color-secundario;
+        padding-bottom: 1em;
+    }
+    .section_contenedor--a {
+        font-size: 2em;
+        color: #ffffff;
+        text-decoration: none;
+        &:hover {
+            color: $color-secundario;
+        }
+    }
+    .section_contenedor--precio {
+        font-size: 2em;
+    }
+    .section_contenedor--cart {
+        background: #ebba34;
+        text-decoration: none;
+        color: #ffffff;
+        margin-top: 3em;
+        padding: 1em 2em;
+        &:hover {
+            background: #6e5512;
+            border: 2px solid #ebba34;
+            text-decoration: none;
+            margin-top: 3em;
+            color: #ffffff;
+            padding: 1em 2em;
+        }
+    }
+    .section_contenedor--img1 {
+        background: none;
+        width: 22vw;
+    }
+    .section_contenedor--img2 {
+        background: none;
+        width: 22vw;
+    }
+    .section_contenedor--img3 {
+        background: none;
+        width: 22vw;
+    }
+    .section_contenedor--img4 {
+        background: none;
+        width: 22vw;
+    }
+    
+}
+
+
+
+
+
+@include media3-lg{
+    .fondoGuitar {
+        background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/megadeth3.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 60vh;
+        color: #ffffff;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .fondoGuitar_img {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .fondoGuitar_img--img1 {
+        width: 50vw;
+        height: 40vh;
+    }
+    .fondoGuitar_img--img2 {
+        width: 43vw;
+        height: 40vh;
+    }
+    .fondoGuitar_texto {
+        margin: auto;
+    }
+    .fondoGuitar_texto--p {
+        font-size: 6vw;
+    }
+
+
+/*-----------------------section guitarras------------------*/
+.section_guitarras {
+	width: 100%;
+}
+.section_contenedor-guitarras {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-content: center;
+}
+.section_contenedor-guitarras--1 {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: auto;
+}
+.section_contenedor--img {
+	background: #473f3e;
+	width: 23vw;
+	height: 20em;
+	margin: 0.5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: $color-secundario;
+	padding-bottom: 1em;
+}
+.section_contenedor--a {
+	font-size: 2em;
+	color: #ffffff;
+	text-decoration: none;
+	&:hover {
+		color: $color-secundario;
+	}
+}
+.section_contenedor--precio {
+	font-size: 2em;
+}
+.section_contenedor--cart {
+	background: #ebba34;
+	text-decoration: none;
+	color: #ffffff;
+	margin-top: 3em;
+	padding: 1em 2em;
+	&:hover {
+		background: #6e5512;
+		border: 2px solid #ebba34;
+		text-decoration: none;
+		margin-top: 3em;
+		color: #ffffff;
+		padding: 1em 2em;
+	}
+}
+.section_contenedor--img1 {
+	background: none;
+	width: 22vw;
+}
+.section_contenedor--img2 {
+	background: none;
+	width: 22vw;
+}
+.section_contenedor--img3 {
+	background: none;
+	width: 22vw;
+}
+.section_contenedor--img4 {
+	background: none;
+	width: 22vw;
+}
+
+    
+}
+
+
+
+
+@include tablet-lg{
+    .fondoGuitar {
+        background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/megadeth3.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 60vh;
+        color: #ffffff;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .fondoGuitar_img {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .fondoGuitar_img--img1 {
+        width: 50vw;
+        height: 40vh;
+    }
+    .fondoGuitar_img--img2 {
+        width: 43vw;
+        height: 40vh;
+    }
+    .fondoGuitar_texto {
+        margin: auto;
+    }
+    .fondoGuitar_texto--p {
+        font-size: 6vw;
+    }
+
+    /*-----------------------section guitarras------------------*/
+
+    .section_guitarras {
+        width: 100%;
+    }
+    .section_contenedor-guitarras {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .section_contenedor-guitarras--1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+    .section_contenedor--img {
+        background: #473f3e;
+        width: 45vw;
+        height: 20em;
+        margin: 0.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $color-secundario;
+        padding-bottom: 1em;
+    }
+    .section_contenedor--a {
+        font-size: 2em;
+        color: #ffffff;
+        text-decoration: none;
+        &:hover {
+            color: $color-secundario;
+        }
+    }
+    .section_contenedor--precio {
+        font-size: 2em;
+    }
+    .section_contenedor--cart {
+        background: #ebba34;
+        text-decoration: none;
+        color: #ffffff;
+        margin-top: 3em;
+        padding: 1em 2em;
+        &:hover {
+            background: #6e5512;
+            border: 2px solid #ebba34;
+            text-decoration: none;
+            margin-top: 3em;
+            color: #ffffff;
+            padding: 1em 2em;
+        }
+    }
+    .section_contenedor--img1 {
+        background: none;
+        width: 40vw;
+    }
+    .section_contenedor--img2 {
+        background: none;
+        width: 40vw;
+    }
+    .section_contenedor--img3 {
+        background: none;
+        width: 40vw;
+    }
+    .section_contenedor--img4 {
+        background: none;
+        width: 40vw;
+    }
+    
+    
+}
+
+
+
+
+
+@include mobile-lg{
+    .fondoGuitar {
+        background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/megadeth3.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 60vh;
+        color: #ffffff;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .fondoGuitar_img {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .fondoGuitar_img--img1 {
+        width: 50vw;
+        height: 40vh;
+    }
+    .fondoGuitar_img--img2 {
+        width: 43vw;
+        height: 40vh;
+    }
+    .fondoGuitar_texto {
+        margin: auto;
+    }
+    .fondoGuitar_texto--p {
+        font-size: 6vw;
+    }
+    
+    /*-----------------------section guitarras------------------*/
+
+    .section_guitarras {
+        width: 100%;
+    }
+    .section_contenedor-guitarras {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .section_contenedor-guitarras--1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .section_contenedor--img {
+        background: #473f3e;
+        width: 45vw;
+        height: 20em;
+        margin: 0.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $color-secundario;
+        padding-bottom: 1em;
+    }
+    .section_contenedor--a {
+        font-size: 2em;
+        color: #ffffff;
+        text-decoration: none;
+        &:hover {
+            color: $color-secundario;
+        }
+    }
+    .section_contenedor--precio {
+        font-size: 2em;
+    }
+    .section_contenedor--cart {
+        background: #ebba34;
+        text-decoration: none;
+        color: #ffffff;
+        margin-top: 3em;
+        padding: 1em 2em;
+        &:hover {
+            background: #6e5512;
+            border: 2px solid #ebba34;
+            text-decoration: none;
+            margin-top: 3em;
+            color: #ffffff;
+            padding: 1em 2em;
+        }
+    }
+    .section_contenedor--img1 {
+        background: none;
+        width: 40vw;
+    }
+    .section_contenedor--img2 {
+        background: none;
+        width: 40vw;
+    }
+    .section_contenedor--img3 {
+        background: none;
+        width: 40vw;
+    }
+    .section_contenedor--img4 {
+        background: none;
+        width: 40vw;
+    }
+    
+
+}

@@ -1,0 +1,176 @@
+form {
+	display: flex;
+	flex-direction: column;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.section_formulario {
+	width: 30vw;
+	height: 5vh;
+	font-size: 1em;
+	margin-bottom: 1em;
+	padding-left: 1em;
+}
+.section_formulario--textarea {
+	width: 30vw;
+	height: 15vh;
+	font-size: 1em;
+	margin-bottom: 1em;
+	padding-left: 1em;
+}
+.section_formulario--enviar {
+	background: #ebba34;
+	font-size: 1em;
+	width: 13vw;
+	height: 8vh;
+	&:hover {
+		background: #6e5512;
+		border: 2px solid #ebba34;
+		font-size: 1em;
+		width: 13vw;
+		height: 8vh;
+	}
+}
+
+
+@include media1-lg{
+	.section_formulario{
+        width: 40vw;
+        height: 5vh;
+        font-size: 2vw;
+        margin-bottom: 1em;
+        
+    }
+    
+    .section_formulario--textarea{
+        width: 40vw;
+        height: 15vh;
+        font-size: 2vw;
+        margin-bottom: 1em; 
+        padding-left: 1em;
+    }
+
+	.section_formulario--enviar{
+        background: #ebba34;
+        font-size: 1.5vw;
+        width: 13vw;
+        height: 8vh;
+    }
+    
+    .section_formulario--enviar:hover{
+        background: #6e5512;
+        border: 2px solid #ebba34;
+        font-size: 1.5vw;
+        width: 13vw;
+        height: 8vh;
+    }
+}
+
+@include media2-lg{
+	.section_formulario--enviar{
+        background: #ebba34;
+        font-size: 1.5vw;
+        width: 13vw;
+        height: 8vh;
+    }
+    
+    .section_formulario--enviar:hover{
+        background: #6e5512;
+        border: 2px solid #ebba34;
+        font-size: 1.5vw;
+        width: 13vw;
+        height: 8vh;
+    }
+}
+
+@include media3-lg{
+	.section_formulario{
+        width: 40vw;
+        height: 5vh;
+        font-size: 2vw;
+        margin-bottom: 1em;
+        
+    }
+    
+    .section_formulario--textarea{
+        width: 40vw;
+        height: 15vh;
+        font-size: 2vw;
+        margin-bottom: 1em; 
+        padding-left: 1em;
+    }
+    
+    .section_formulario--enviar{
+        background: #ebba34;
+        font-size: 1.7vw;
+        width: 13vw;
+        height: 8vh;
+    }
+    
+    .section_formulario--enviar:hover{
+        background: #6e5512;
+        border: 2px solid #ebba34;
+        font-size: 1.7vw;
+        width: 13vw;
+        height: 8vh;
+    }
+}
+
+
+
+@include tablet-lg{
+	form {
+		display: flex;
+		flex-direction: column;
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+	.section_despegable {
+		width: 80%;
+		height: 5vh;
+		font-size: 2vw;
+		margin-bottom: 1em;
+	}
+	.section_despegable--textarea {
+		width: 80%;
+		height: 15vh;
+		font-size: 2vw;
+		margin-bottom: 1em;
+	}
+	.section_despegable--enviar {
+		background: #ebba34;
+		font-size: 1.5vw;
+		width: 15vw;
+		height: 6vh;
+	}
+	
+}
+
+@include mobile-lg{
+	form {
+		display: flex;
+		flex-direction: column;
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+	.section_despegable {
+		width: 100%;
+		height: 5vh;
+		font-size: 5vw;
+		margin-bottom: 1em;
+	}
+	.section_despegable--textarea {
+		width: 100%;
+		height: 15vh;
+		font-size: 5vw;
+		margin-bottom: 1em;
+	}
+	.section_despegable--enviar {
+		background: #ebba34;
+		font-size: 5vw;
+		width: 50vw;
+		height: 8vh;
+	}
+	
+}
+

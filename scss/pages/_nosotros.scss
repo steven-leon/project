@@ -1,0 +1,228 @@
+.fondo_nosotros {
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/fondo.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 80vh;
+	color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.fondo_nosotros-img {
+	display: flex;
+}
+.fondo_nosotros-img--img1 {
+	width: 23em;
+	height: 36em;
+}
+.fondo_nosotros-img--img2 {
+	width: 30em;
+	height: 38em;
+}
+.fondo_nosotros-texto {
+	padding-top: 20em;
+}
+.fondo_nosotros-texto--p1 {
+	font-size: 2em;
+}
+.fondo_nosotros-texto--p2 {
+	font-size: 3em;
+}
+
+
+/*--------NOSOTROS------------*/
+
+.section_nosotros {
+	background: $color-primario;
+	margin: auto;
+	color: #87968c;
+}
+.section_nosotros-contenedor {
+	width: 70%;
+	margin: auto;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.section_nosotros-contenedor--h2 {
+	text-align: center;
+	color: #000000;
+}
+
+
+@include media1-lg{
+    .fondo_nosotros {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/fondo.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 70vh;
+        color: #ffffff;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .fondo_nosotros-img {
+        display: flex;
+    }
+    .fondo_nosotros-img--img1 {
+        width: 30vw;
+        height: 40vh;
+    }
+    .fondo_nosotros-img--img2 {
+        width: 38vw;
+        height: 42vh;
+    }
+    .fondo_nosotros-texto {
+        padding-top: 20em;
+    }
+    .fondo_nosotros-texto--p1 {
+        font-size: 2em;
+    }
+    .fondo_nosotros-texto--p2 {
+        font-size: 3em;
+    }
+    
+}
+
+@include media3-lg{
+    .fondo_nosotros{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/fondo.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 70vh;
+        color: #ffffff;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    
+    .fondo_nosotros-img{
+        display: flex;
+    }
+    
+    
+    .fondo_nosotros-img--img1{
+        width: 28vw;
+        height: 36vh;
+        
+    }
+    
+    .fondo_nosotros-img--img2{
+        width: 36vw;
+        height: 38vh;
+    }
+    
+    .fondo_nosotros-texto{
+        padding-top: 20em;
+       
+    }
+    
+    .fondo_nosotros-texto--p1{
+        font-size: 2em;
+    }
+    
+    .fondo_nosotros-texto--p2{
+        font-size: 3em;
+    }
+    
+    
+        
+}
+
+
+
+
+@include tablet-lg{
+    .fondo_nosotros {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/fondo.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 70vh;
+        color: #ffffff;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .fondo_nosotros-img {
+        display: flex;
+    }
+    .fondo_nosotros-img--img1 {
+        width: 23vw;
+        height: 36vh;
+    }
+    .fondo_nosotros-img--img2 {
+        width: 30vw;
+        height: 38vh;
+    }
+    .fondo_nosotros-texto {
+        padding-top: 20em;
+    }
+    .fondo_nosotros-texto--p1 {
+        font-size: 2em;
+    }
+    .fondo_nosotros-texto--p2 {
+        font-size: 3em;
+    }
+    
+}
+
+
+
+@include mobile-lg{
+    .fondo_nosotros {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/fondo.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 62vh;
+        color: #ffffff;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    .fondo_nosotros-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+        padding-top: 2rem;
+    }
+    .fondo_nosotros-img--img1 {
+        width: 50vw;
+        height: 40vh;
+    }
+    .fondo_nosotros-img--img2 {
+        width: 43vw;
+        height: 40vh;
+    }
+    .fondo_nosotros-texto {
+        padding-top: 2em;
+        text-align: center;
+    }
+    .fondo_nosotros-texto--p1 {
+        font-size: 1.5em;
+    }
+    .fondo_nosotros-texto--p2 {
+        font-size: 3em;
+    }
+
+    /*--------NOSOTROS------------*/
+
+    .section_nosotros{
+        background: $color-primario;
+        margin: auto;
+        color: #87968c;
+    }
+    
+    .section_nosotros-contenedor{
+        width: 70%;
+        margin: auto;
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+    
+    .section_nosotros-contenedor--h2{
+        text-align: center;
+        color: #000000;
+    }
+    
+    
+}

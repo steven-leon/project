@@ -1,0 +1,149 @@
+footer {
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/Megadeth.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+}
+.footer_desplegable {
+	display: none;
+}
+.footer_contenedor {
+	display: grid;
+	grid-template-columns: repeat(4, 25%);
+	padding-top: 2em;
+	width: 80%;
+	margin: auto;
+	gap: 1.8em;
+}
+.footer_logo {
+	width: 80%;
+	p {
+		color: #87968c;
+	}
+}
+.footer_categorias {
+	display: grid;
+	grid-template-columns: 1fr;
+	a {
+		text-decoration: none;
+		color: #87968c;
+		&:hover {
+			text-decoration: none;
+			color: $color-secundario;
+		}
+	}
+}
+.footer_siguenos {
+	height: 20vh;
+	padding-right: 10em;
+}
+.footer_info {
+	height: 20vh;
+	padding-right: 10em;
+	p {
+		color: #87968c;
+	}
+}
+.footer_p {
+	clear: both;
+	text-align: center;
+	padding-top: 3.4em;
+}
+
+
+@include media1-lg{
+	.footer_contenedor{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding-top: 2em;
+        width: 90%;
+        margin: auto;
+        gap: 1.8em;
+    }
+
+}
+
+
+
+@include media2-lg{
+	footer {
+		background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/Megadeth.jpg);
+		background-position: center;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+		color: #ffffff;
+	}
+	.footer_contenedor {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		padding-top: 2em;
+		width: 90%;
+		margin: auto;
+		gap: 1.8em;
+	}
+	.footer_categorias {
+		display: flex;
+		flex-direction: column;
+		h3 {
+			padding-bottom: 1.5rem;
+		}
+	}
+	.footer_info {
+		height: 20vh;
+		padding-right: 10em;
+		p {
+			color: #87968c;
+		}
+	}
+	.footer_p {
+		clear: both;
+		text-align: center;
+		padding-bottom: 0.5rem;
+	}
+	
+}
+
+
+
+@include media3-lg{
+	.footer_contenedor {
+		display: none;
+	}
+	.footer_desplegable {
+		margin: auto;
+		width: 90%;
+		padding-top: 2rem;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	details {
+		background-color: rgba(0, 0, 0 , 0.6);
+		display: block;
+		padding: 1em;
+		cursor: pointer;
+		margin-bottom: 2px;
+	}
+	summary {
+		padding-bottom: 1rem;
+	}
+	.acordeon_siguenos--logo {
+		width: 4em;
+	}
+	.footer_desplegable--categorias {
+		display: flex;
+		flex-direction: column;
+		a {
+			text-decoration: none;
+			color: #ffffff;
+		}
+	}
+	.footer_p {
+		width: 90%;
+	}
+	
+}
+
+
